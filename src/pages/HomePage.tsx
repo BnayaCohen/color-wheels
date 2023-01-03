@@ -4,7 +4,7 @@ export function HomePage() {
 
 
   return (
-    <section className='home-page flex column auto-center'>
+    <section className='home-page flex auto-center'>
 
       <ColorWheel type={'monochrom'} />
       <ColorWheel type={'triadic'} />
