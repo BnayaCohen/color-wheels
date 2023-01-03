@@ -1,0 +1,38 @@
+// Externals
+
+// Setup
+@import "setup/variables";
+@import "setup/functions";
+@import "setup/mixins";
+
+// Basics
+@import "basics/typography";
+@import "basics/base";
+@import "basics/helpers";
+@import "basics/layout";
+@import "basics/modals";
+@import "basics/animations";
+
+// Pages
+@import "pages/home-page";
+
+// Components
+@import "cmps/app-header";
+@import "cmps/app-footer";
+@import "cmps/color-preview";
+@import "cmps/color-scheme";
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    main {
+        flex-grow: 1;
+    }
+
+    >footer {
+        text-align: center;
+        color: #9D9D9D;
+    }
+}
